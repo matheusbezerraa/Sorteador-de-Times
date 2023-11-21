@@ -1,0 +1,26 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#teams {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.team {
+    border: 1px solid #333;
+    padding: 10px;
+    width: 150px;
+}
+
+#playersList ol {
+    list-style: none;
+    padding: 0;
+}
+
+.deleteButton {
+    margin-left: 10px;
+    cursor: pointer;
+    border: 1px solid #ff0000;
+}
