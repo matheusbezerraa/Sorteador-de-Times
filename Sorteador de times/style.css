@@ -14,6 +14,10 @@ body {
     width: 150px;
 }
 
+#playerLevel{
+    margin-top: 20px;
+}
+
 #playersList ol {
     list-style: none;
     list-style-position: inside;
