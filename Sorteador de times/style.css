@@ -16,11 +16,21 @@ body {
 
 #playersList ol {
     list-style: none;
-    padding: 0;
+    list-style-position: inside;
+}
+
+.listItem{
+    margin-top: 10px;
 }
 
 .deleteButton {
     margin-left: 10px;
     cursor: pointer;
     border: 1px solid #ff0000;
+}
+
+.botaoAdicionar{
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
 }

@@ -51,6 +51,7 @@ function displayPlayers() {
     players.forEach(player => {
         // Criar um item de lista para o jogador
         const listItem = document.createElement('li');
+        listItem.classList.add("listItem")
         listItem.textContent = `#${player.number} - ${player.name} (Nível ${player.level})`;
 
         // Criar um botão de exclusão para o jogador
