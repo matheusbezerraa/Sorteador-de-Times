@@ -1,2 +1,2 @@
-# Sortiador-de-Times
+# Sorteador-de-Times
  sorteador web de times
