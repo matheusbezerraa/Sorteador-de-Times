@@ -9,6 +9,10 @@ function addPlayer() {
 
     // Verificar se ambos os campos estão preenchidos
     if (playerName && playerLevel) {
+
+        //Verificar se o valor do nível é <= 5 para poder ser adicionado
+        if (playerLevel <= 5){
+
         // Gerar um número para o jogador com base no comprimento da lista
         const playerNumber = players.length + 1;
 
@@ -21,6 +25,9 @@ function addPlayer() {
         // Limpar os campos do formulário
         document.getElementById('playerName').value = '';
         document.getElementById('playerLevel').value = '';
+    } else{
+        alert('Você digitou um número errado!')
+    }
     }
 }
 
